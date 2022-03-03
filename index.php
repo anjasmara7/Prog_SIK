@@ -14,8 +14,8 @@
                 if(file_exists($namafile)){
                     require_once (PUB_DIR . $halaman .'.php');
                 }else{
-                    header("location:.");
-                    // require_once (PUB_DIR . 'error.php');
+                    // header("location:.");
+                    require_once (PUB_DIR . 'error.php');
                 }
             }
     }
