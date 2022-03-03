@@ -8,7 +8,7 @@
             $halaman=$opsi;
             if($halaman==''){
                 $halaman=='index';
-                require_once (PUB_DIR . 'index.php');
+                require_once (PUB_DIR . 'sign-in.php');
             }else{
                 $namafile = $halaman.'.php';
                 if(file_exists($namafile)){
